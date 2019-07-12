@@ -1,0 +1,3 @@
+CHILD child
+SLT slt
+<unk> spn

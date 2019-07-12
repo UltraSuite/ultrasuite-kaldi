@@ -1,0 +1,22 @@
+<Topology>
+<TopologyEntry>
+<ForPhones>
+3 4
+</ForPhones>
+<State> 0 <PdfClass> 0 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 1 <PdfClass> 1 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 2 <PdfClass> 2 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 3 <PdfClass> 3 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 4 </State>
+</TopologyEntry>
+<TopologyEntry>
+<ForPhones>
+1 2
+</ForPhones>
+<State> 0 <PdfClass> 0 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 1 <PdfClass> 1 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 2 <PdfClass> 2 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 3 <PdfClass> 3 <Transition> 0 0.2 <Transition> 1 0.2 <Transition> 2 0.2 <Transition> 3 0.2 <Transition> 4 0.2 </State>
+<State> 4 </State>
+</TopologyEntry>
+</Topology>

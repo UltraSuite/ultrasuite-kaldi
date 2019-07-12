@@ -1,0 +1,13 @@
+# Build Language Model
+# For speaker labelling, this is a simple unigram model without any smoothing or discounting
+
+1) Create corpus.txt from training data's text, with one sentence per line.
+
+2) Use SRILM's ngram-count to estimate ARPA LM.
+    ngram-count -order 1 -text ./corpus.txt -lm ./lm.arpa
+
+    # location of ngram-count, if not in PATH:
+    ${KALDIROOT}/tools/srilm/bin/i686-m64/ngram-count
+
+3) Gzip ARPA LM
+    gzip ./lm.arpa
