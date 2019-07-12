@@ -24,7 +24,7 @@ def main(corpus_dir, labels_dir, output_dir, sample_rate=16000, use_reference=Fa
     wav_base = 'FILEID sox WAVPATH -r {0} -t .wav - |'.format(sample_rate)
 
     if use_reference:
-        ref_dir = os.path.join(labels_dir, 'reference_labels', 'lab')
+        ref_dir = os.path.join(labels_dir, 'reference_labels', 'speaker_labels', 'lab')
         reference_list = [f.replace('.lab', '') for f in os.listdir(ref_dir)]
 
     # utterances with issues, ignore these
